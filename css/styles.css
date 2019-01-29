@@ -1,0 +1,87 @@
+.heading{
+	width: 51%;
+	margin: 30px auto;
+	height: 80px;
+	color: 	rgb(35, 37, 31);
+	background: rgb(204, 204, 204);
+	border-radius: 8px;
+	text-align: center;
+	padding-top: 1.2%;
+}
+
+form {
+	width: 50%; 
+	margin: 30px auto; 
+	border-radius: 5px; 
+	padding: 10px;
+	background: rgb(204, 204, 204);
+}
+form p {
+	color: rgb(255, 45, 45);
+	margin: 0px;
+}
+.task_input {
+	width: 75%;
+	height: 15px; 
+	padding: 10px;
+}
+.add_btn {
+	height: 39px;
+	background: rgb(204, 204, 204);
+	color: 	rgb(14, 14, 14);
+	border: 1px solid rgb(14, 14, 14);
+	border-radius: 5px; 
+	padding: 5px 20px;
+}
+.add_btn:hover{
+	box-shadow: 0px 0px 2px 2px rgba(14, 14, 14, 0.8);
+	transition: ease-in-out 300ms;
+}
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid slategray;
+	text-align: left;
+}
+
+th {
+	font-size: 19px;
+	color: rgb(14, 14, 14);
+	text-align: left;
+}
+
+th, td{
+	border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover {
+	background: #E9E9E9;
+}
+
+.task {
+	text-align: left;
+}
+.task:active {
+	text-decoration: line-through;
+}
+
+
+.delete{
+	text-align: center;
+}
+.delete a{
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+.delete img{
+	width: 16px;
+	height: 16px;
+}
